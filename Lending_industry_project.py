@@ -90,7 +90,7 @@ def project_overview():
 def preprocessing_details():
     st.subheader("🔧 Pre-processing & Feature Engineering Steps")
 
-    st.markdown("### STEP 2: Bureau Balance → DPD Feature Engineering")
+    st.markdown("### Bureau Balance → DPD Feature Engineering")
 
     st.markdown("""
     **Source Table:** `bureau_balance.csv`
@@ -108,7 +108,7 @@ def preprocessing_details():
 
     st.markdown("---")
 
-    st.markdown("### STEP 3: Bureau Trade-line Aggregation")
+    st.markdown("### Bureau Trade-line Aggregation")
 
     st.markdown("""
     **Source Table:** `bureau.csv`
@@ -126,7 +126,7 @@ def preprocessing_details():
 
     st.markdown("---")
 
-    st.markdown("### STEP 4: Enquiry Proxy Feature Creation")
+    st.markdown("### Enquiry Proxy Feature Creation")
 
     st.markdown("""
     **Source Table:** `previous_application.csv`
@@ -138,7 +138,7 @@ def preprocessing_details():
 
     st.markdown("---")
 
-    st.markdown("### STEP 5: Missing Value Treatment")
+    st.markdown("### Missing Value Treatment")
 
     st.markdown("""
     **Variables Applied To:**
@@ -155,7 +155,7 @@ def preprocessing_details():
 
     st.markdown("---")
 
-    st.markdown("### STEP 6: Capping & Outlier Treatment")
+    st.markdown("### Capping & Outlier Treatment")
 
     st.markdown("""
     **Variables Applied To:**
